@@ -11,5 +11,10 @@ public class InteractiveReportingPage extends TestBase{
 		PageFactory.initElements(driver, this);
 	   
 	}
+	
+	public void example()
+	{
+		System.out.println("demo method");
+	}
 
 }

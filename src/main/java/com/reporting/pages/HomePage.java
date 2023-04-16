@@ -41,15 +41,8 @@ public class HomePage extends TestBase{
 	WebElement subsectionFirmInformationInquiry;
 	
 	//Initializing the page Objects - create the constructor of the homepage
-	public HomePage() {
-		PageFactory.initElements(driver, this);
-	}
-	
-	
-	//Actions
-	public String verifyHomePageTitle() {
-		return driver.getTitle();
-	}
+
+
 	
 	public Boolean verifyCorrectUserName() {
 		return userInfo.isDisplayed();
